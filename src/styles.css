@@ -1024,6 +1024,11 @@ body {
 
   }
 
+   .custom-hamburger.open {
+    color: #F266AB;
+
+  }
+
   .sec1 {
     flex-direction: column;
   }
