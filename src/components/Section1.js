@@ -15,7 +15,7 @@ export default function Section1() {
                     <div>
                         <h1>Frontend Web and Mobile Developer.</h1>
                         <p> <span className="wave">👋🏾</span>Hi, I'm Kevwe. I love creating beautiful and fun things with code. I enjoy creating sturdy and adaptable frontend products with exceptional user experiences.</p>
-                        <a class="bck-grnd" href="#"><span class="style" ></span>Resume </a>
+                        <a class="bck-grnd" href="https://docs.google.com/document/d/14wgATc7pgcrsgcv2v_bDz3gPKBdAjv6-/edit?usp=sharing&ouid=112916005114193758573&rtpof=true&sd=true"><span class="style" ></span>Resume </a>
                     </div>
                  
                     <div className="top-icons">
