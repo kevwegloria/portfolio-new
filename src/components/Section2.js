@@ -34,7 +34,7 @@ export default function Section2() {
                 <div className="sec2h3-container">
                     <h3>About Me</h3>
                 </div>
-                <p>I am a frontend developer, web designer and mobile developer with a passion for creating simple, beautiful and functional user interfaces. I have experience in CSS, Bootstrap, Material UI, Javascript, Reactjs and React Native. I take pride in my design abilities and attention to details. I also ensure that I write clean and maintainable code. I am dedicated to learning and growing as a developer, I am constantly attending workshops, bootcamps and conferences as well as seeking out new challenges in order to expand my knowledge.</p>
+                <p>I am a frontend developer, web designer and mobile developer with a passion for creating simple, beautiful and functional user interfaces. I have experience in CSS, Bootstrap, Canva, Material UI, Javascript, Reactjs and React Native. I take pride in my design abilities and attention to details. I also ensure that I write clean and maintainable code. I am dedicated to learning and growing as a developer, I am constantly attending workshops, bootcamps and conferences as well as seeking out new challenges in order to expand my knowledge.</p>
                 <div className="shape2-container">
                     <img
                         src={Shape2}
