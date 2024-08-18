@@ -3,6 +3,7 @@ import foodie from './videos/foodie1.mp4';
 import movers from './videos/movers1.mp4';
 import ebele from './videos/ebele1.mp4';
 import indozi from './videos/indozi1.mp4';
+import kdrama from './videos/kdramalove.mp4';
 import shape2 from './images/shape2b.png';
 import shape7 from './images/shape7.png';
 import shape6 from './images/shape6.png';
@@ -37,6 +38,21 @@ export default function Section3() {
               className="m5"/>
 
                 <div className="project-grid">
+                    <div className="project-container">
+                        <video autoPlay loop muted className="project-video" >
+                            <source src={kdrama} type="video/mp4" alt="foodie" />
+                        </video>
+                        <div className="project-overlay">
+
+                            <a href="https://kdrama-love.vercel.app/">Kdrama Love</a>
+                            <p>This website is to discover the best kdramas.</p>
+                            <div className="type1">
+                                <p>React</p>
+                                <p>Material UI</p>
+                                <p>TMDB API</p>
+                            </div>
+                        </div>
+                    </div>
                     <div className="project-container">
                         <video autoPlay loop muted className="project-video" >
                             <source src={foodie} type="video/mp4" alt="foodie" />
