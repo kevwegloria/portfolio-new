@@ -50,6 +50,7 @@ export default function Section3() {
                                 <p>React</p>
                                 <p>Material UI</p>
                                 <p>TMDB API</p>
+                     <p>Firebase</p>
                             </div>
                         </div>
                     </div>
