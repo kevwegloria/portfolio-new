@@ -34,11 +34,10 @@ const Navigation = () => {
                     </div>
                 </div>
                 <ul className={`nav-list ${isOpen ? 'open' : ''}`}>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">My Projects</a></li>
-                    <li><a href="#">My Resume</a></li>
+                    
+                    <li><a href="https://docs.google.com/document/d/1rXD3XgxAnbQzV7gIRIpCXH4Xg-V0E0cL/edit?usp=sharing&ouid=112916005114193758573&rtpof=true&sd=truee">My Resume</a></li>
                     <p className='sayhello'>Say Hello</p>
-                    <li><a href="#">kevweglo@gmail.com</a></li>
+                    <li><a href="mailto:kevweglo@gmail.com">kevweglo@gmail.com</a></li>
                     <div className="icons1">
                         <a href="https://www.linkedin.com/in/kevwe-okpoh/"><i class="fa fa-linkedin-square"
                             aria-hidden="true"></i></a>

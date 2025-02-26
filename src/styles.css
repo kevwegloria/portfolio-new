@@ -232,8 +232,8 @@ body {
   width: 30em;
   margin-bottom: 2.5em;
 
-  font-size: 1.1em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
+ font-weight: 400;
 }
 
 .sec1b {
@@ -383,8 +383,10 @@ body {
 .sec2b p {
   width: 29em;
   font-size: 1em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+  font-weight: 400;
+ }
+  
+
 
 .sec2h3-container {
   border-bottom: 2px solid #F266AB;
@@ -559,7 +561,7 @@ body {
 }
 
 .type1 p {
-  margin-right: 2em;
+  margin-right: 0.6em;
   background-color: #F266AB;
   padding: 3px 10px;
   border-radius: 10px;
@@ -727,7 +729,7 @@ body {
   }
 
   .custom-hamburger {
-    color: #A459D1;
+    color: white;
   }
 
   .custom-hamburger.open {
@@ -1010,11 +1012,20 @@ body {
   .section4 p {
     font-size: 1em;
   }
+
+  .foot img {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .custom-hamburger {
     color: white;
+
+  }
+
+  .custom-hamburger.open {
+    color: #F266AB;
 
   }
 
@@ -1055,7 +1066,7 @@ body {
   }
 
   .sec1b {
-    height: 35em;
+    height: 39em;
   }
 
   .profile-img {
@@ -1080,7 +1091,7 @@ body {
   }
 
   .section2 {
-    height: 50em;
+    height: 60em;
     flex-direction: column;
   }
 
