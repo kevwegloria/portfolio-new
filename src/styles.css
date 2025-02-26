@@ -233,7 +233,9 @@ body {
   margin-bottom: 2.5em;
 
   font-size: 1em;
- font-weight: 400;
+  font-weight: 400;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .sec1b {
@@ -384,8 +386,12 @@ body {
   width: 29em;
   font-size: 1em;
   font-weight: 400;
- }
-  
+}
+
+
+font-weight: 400;
+}
+
 
 
 .sec2h3-container {
@@ -730,6 +736,7 @@ body {
 
   .custom-hamburger {
     color: white;
+    color: white;
   }
 
   .custom-hamburger.open {
@@ -1016,6 +1023,10 @@ body {
   .foot img {
     display: none;
   }
+
+  .foot img {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1045,12 +1056,12 @@ body {
 
   .sec1b {
     width: 100%;
-   height: 250em;
+    height: 250em;
   }
 
   .shape7 {
-   top: 1em;
-   left: 1em;
+    top: 1em;
+    left: 1em;
   }
 
   .shape2b {
@@ -1066,6 +1077,7 @@ body {
   }
 
   .sec1b {
+    height: 39em;
     height: 39em;
   }
 
@@ -1091,6 +1103,7 @@ body {
   }
 
   .section2 {
+    height: 60em;
     height: 60em;
     flex-direction: column;
   }
@@ -1125,8 +1138,8 @@ body {
 
   .shape2 {
     display: none;
-   
-   
+
+
 
 
   }
@@ -1157,7 +1170,7 @@ body {
     max-width: 350px;
   }
 
-  .project-overlay a{
+  .project-overlay a {
     font-size: 1.5em;
   }
 
